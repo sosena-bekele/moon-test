@@ -14,7 +14,8 @@ console.log(`Sum: ${result}`);
 const config: SharedConfig = createConfig({ 
   name: 'App2', 
   version: '2.0.0',
-  enabled: true 
+  enabled: true,
+  new_field: 'test'
 });
 console.log('Config:', config);
 
