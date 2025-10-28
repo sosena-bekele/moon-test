@@ -1,4 +1,4 @@
-import { sharedUtility, calculateSum, createConfig, SharedConfig } from '@moon-test/test-lib';
+import { sharedUtility, calculateSum, createConfig, SharedConfig } from '@moon-test/lib1';
 
 console.log('App2 starting...');
 

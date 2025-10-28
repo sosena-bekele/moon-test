@@ -22,3 +22,5 @@ Thumbs.db
 # moon
 .moon/cache
 .moon/docker
+
+.pnpm-cache/
