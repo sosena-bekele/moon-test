@@ -10,12 +10,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@moon-test/lib1": [
-        "../../libs/test/lib1/src/index.ts"
-      ],
-      "@moon-test/lib1/*": [
-        "../../libs/test/lib1/src/*"
-      ]
+      "@moon-test/lib1": ["../../libs/test/lib1/src/index.ts"],
+      "@moon-test/lib1/*": ["../../libs/test/lib1/src/*"]
     }
   },
   "include": ["src/**/*"],
