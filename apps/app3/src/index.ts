@@ -11,7 +11,7 @@ const result = calculateSum(100, 200);
 console.log(`Sum: ${result}`);
 
 // Use shared config function
-const config = createConfig({ name: 'App3', version: '3.0.0', enabled: true, new_field: 'test' });
+const config = createConfig({ name: 'App3', version: '3.0.0', enabled: true });
 console.log('Config:', config);
 
 console.log('App3 finished!');

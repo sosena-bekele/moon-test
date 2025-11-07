@@ -19,7 +19,6 @@ export interface SharedConfig {
   name: string;
   version: string;
   enabled: boolean;
-  new_field: string;
 }
 
 export function createConfig(config: SharedConfig): SharedConfig {
@@ -27,6 +26,5 @@ export function createConfig(config: SharedConfig): SharedConfig {
     name: config.name || 'default',
     version: config.version || '1.0.0',
     enabled: config.enabled ?? true,
-    new_field: config.new_field,
   };
 }

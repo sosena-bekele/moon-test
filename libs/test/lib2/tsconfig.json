@@ -2,38 +2,32 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "lib": [
-      "ES2020"
-    ],
+    "lib": ["ES2020"],
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "composite": true,
-    "incremental": true,
     "declaration": true,
     "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "incremental": true,
     "paths": {
       "@moon-test/lib1": [
-        "../../libs/test/lib1/src/index.ts"
+        "../lib1/src/index.ts"
       ],
       "@moon-test/lib1/*": [
-        "../../libs/test/lib1/src/*"
+        "../lib1/src/*"
       ]
     }
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
   "references": [
     {
-      "path": "../../libs/test/lib1"
+      "path": "../lib1"
     }
   ]
 }

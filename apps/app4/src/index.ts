@@ -15,7 +15,6 @@ const config: SharedConfig = createConfig({
   name: 'App4', 
   version: '4.0.0',
   enabled: false, 
-  new_field: 'test'
 });
 console.log('Config:', config);
 
