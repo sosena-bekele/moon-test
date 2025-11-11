@@ -21,6 +21,9 @@
       ],
       "@moon-test/lib1/*": [
         "../../libs/test/lib2/src/*"
+      ],
+      "@moon-test/lib2/*": [
+        "../../libs/test/lib2/src/*"
       ]
     }
   },
