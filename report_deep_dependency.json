@@ -1,0 +1,2628 @@
+{
+  "actions": [
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.083600",
+      "duration": {
+        "secs": 0,
+        "nanos": 45666
+      },
+      "finishedAt": "2025-11-11T18:33:03.083658",
+      "flaky": false,
+      "label": "SetupProto(0.53.2)",
+      "node": {
+        "action": "setup-proto",
+        "params": {
+          "version": "0.53.2"
+        }
+      },
+      "nodeIndex": 3,
+      "operations": [],
+      "startedAt": "2025-11-11T18:33:03.083612",
+      "status": "skipped"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.083673",
+      "duration": {
+        "secs": 0,
+        "nanos": 9871542
+      },
+      "finishedAt": "2025-11-11T18:33:03.093548",
+      "flaky": false,
+      "label": "SyncWorkspace",
+      "node": {
+        "action": "sync-workspace"
+      },
+      "nodeIndex": 0,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 9131042
+          },
+          "finishedAt": "2025-11-11T18:33:03.093326",
+          "id": "config-schemas",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "startedAt": "2025-11-11T18:33:03.084195",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.083677",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.093618",
+      "duration": {
+        "secs": 0,
+        "nanos": 5102667
+      },
+      "finishedAt": "2025-11-11T18:33:03.098715",
+      "flaky": false,
+      "label": "SyncProject(lib1)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "lib1"
+        }
+      },
+      "nodeIndex": 2,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 2647166
+          },
+          "finishedAt": "2025-11-11T18:33:03.097320",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 2340000
+              },
+              "finishedAt": "2025-11-11T18:33:03.097199",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.094858",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.094673",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.093619",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.098766",
+      "duration": {
+        "secs": 0,
+        "nanos": 8543792
+      },
+      "finishedAt": "2025-11-11T18:33:03.107310",
+      "flaky": false,
+      "label": "SyncProject(app1)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "app1"
+        }
+      },
+      "nodeIndex": 20,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 4388208
+          },
+          "finishedAt": "2025-11-11T18:33:03.105086",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 4210500
+              },
+              "finishedAt": "2025-11-11T18:33:03.105032",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.100821",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.100698",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.098767",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.098810",
+      "duration": {
+        "secs": 0,
+        "nanos": 12531791
+      },
+      "finishedAt": "2025-11-11T18:33:03.111344",
+      "flaky": false,
+      "label": "SyncProject(app2)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "app2"
+        }
+      },
+      "nodeIndex": 10,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 9249959
+          },
+          "finishedAt": "2025-11-11T18:33:03.109977",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 4678125
+              },
+              "finishedAt": "2025-11-11T18:33:03.109892",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.105214",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.100727",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.098812",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.099179",
+      "duration": {
+        "secs": 0,
+        "nanos": 15994667
+      },
+      "finishedAt": "2025-11-11T18:33:03.115177",
+      "flaky": false,
+      "label": "SyncProject(app3)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "app3"
+        }
+      },
+      "nodeIndex": 1,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 4231584
+          },
+          "finishedAt": "2025-11-11T18:33:03.114209",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 4069458
+              },
+              "finishedAt": "2025-11-11T18:33:03.114176",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.110106",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.109977",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.099182",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.098889",
+      "duration": {
+        "secs": 0,
+        "nanos": 20384667
+      },
+      "finishedAt": "2025-11-11T18:33:03.119277",
+      "flaky": false,
+      "label": "SyncProject(lib2)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "lib2"
+        }
+      },
+      "nodeIndex": 12,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 8892542
+          },
+          "finishedAt": "2025-11-11T18:33:03.118915",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 4589833
+              },
+              "finishedAt": "2025-11-11T18:33:03.118878",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.114289",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.110022",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.098893",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.098982",
+      "duration": {
+        "secs": 0,
+        "nanos": 24772333
+      },
+      "finishedAt": "2025-11-11T18:33:03.123756",
+      "flaky": false,
+      "label": "SyncProject(app4)",
+      "node": {
+        "action": "sync-project",
+        "params": {
+          "projectId": "app4"
+        }
+      },
+      "nodeIndex": 18,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 12569292
+          },
+          "finishedAt": "2025-11-11T18:33:03.122582",
+          "id": "sync-project",
+          "meta": {
+            "type": "sync-operation"
+          },
+          "operations": [
+            {
+              "duration": {
+                "secs": 0,
+                "nanos": 3591125
+              },
+              "finishedAt": "2025-11-11T18:33:03.122550",
+              "id": "sync-project-references",
+              "meta": {
+                "type": "sync-operation"
+              },
+              "plugin": "typescript",
+              "startedAt": "2025-11-11T18:33:03.118959",
+              "status": "passed"
+            }
+          ],
+          "plugin": "typescript",
+          "startedAt": "2025-11-11T18:33:03.110012",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.098984",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.093583",
+      "duration": {
+        "secs": 0,
+        "nanos": 41276666
+      },
+      "finishedAt": "2025-11-11T18:33:03.134862",
+      "flaky": false,
+      "label": "SetupToolchain(node:~20)",
+      "node": {
+        "action": "setup-toolchain-legacy",
+        "params": {
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          }
+        }
+      },
+      "nodeIndex": 4,
+      "operations": [],
+      "startedAt": "2025-11-11T18:33:03.093585",
+      "status": "skipped"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.134940",
+      "duration": {
+        "secs": 0,
+        "nanos": 684041
+      },
+      "finishedAt": "2025-11-11T18:33:03.135627",
+      "flaky": false,
+      "label": "InstallProjectDeps(node:~20, lib1)",
+      "node": {
+        "action": "install-project-deps",
+        "params": {
+          "projectId": "lib1",
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          }
+        }
+      },
+      "nodeIndex": 7,
+      "operations": [],
+      "startedAt": "2025-11-11T18:33:03.134943",
+      "status": "skipped"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.134919",
+      "duration": {
+        "secs": 0,
+        "nanos": 744208
+      },
+      "finishedAt": "2025-11-11T18:33:03.135665",
+      "flaky": false,
+      "label": "InstallWorkspaceDeps(node:~20)",
+      "node": {
+        "action": "install-workspace-deps",
+        "params": {
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "root": ""
+        }
+      },
+      "nodeIndex": 5,
+      "operations": [],
+      "startedAt": "2025-11-11T18:33:03.134921",
+      "status": "skipped"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.134915",
+      "duration": {
+        "secs": 0,
+        "nanos": 771959
+      },
+      "finishedAt": "2025-11-11T18:33:03.135689",
+      "flaky": false,
+      "label": "InstallProjectDeps(node:~20, lib2)",
+      "node": {
+        "action": "install-project-deps",
+        "params": {
+          "projectId": "lib2",
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          }
+        }
+      },
+      "nodeIndex": 13,
+      "operations": [],
+      "startedAt": "2025-11-11T18:33:03.134917",
+      "status": "skipped"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.135677",
+      "duration": {
+        "secs": 0,
+        "nanos": 519502959
+      },
+      "finishedAt": "2025-11-11T18:33:03.655184",
+      "flaky": false,
+      "label": "RunTask(lib1:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "lib1:typecheck",
+          "id": 7605497845100741680
+        }
+      },
+      "nodeIndex": 8,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 60632334
+          },
+          "finishedAt": "2025-11-11T18:33:03.196386",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "637605bd6a3a894a43fb38341ad79e6f13894237f313f4efe75f78d8d12a76bc"
+          },
+          "startedAt": "2025-11-11T18:33:03.135753",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 95708
+          },
+          "finishedAt": "2025-11-11T18:33:03.196488",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.196393",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 456313958
+          },
+          "finishedAt": "2025-11-11T18:33:03.653057",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.196741",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 873541
+          },
+          "finishedAt": "2025-11-11T18:33:03.654880",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:03.654007",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.135678",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.135669",
+      "duration": {
+        "secs": 0,
+        "nanos": 643361250
+      },
+      "finishedAt": "2025-11-11T18:33:03.779037",
+      "flaky": false,
+      "label": "RunTask(lib1:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "lib1:build",
+          "id": 9515878263238864313
+        }
+      },
+      "nodeIndex": 9,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 60510292
+          },
+          "finishedAt": "2025-11-11T18:33:03.196278",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "a5eba1a40a5fa385046ac8c86a54bcadebe5e5fdf0d5053bd47330a60aec716b"
+          },
+          "startedAt": "2025-11-11T18:33:03.135768",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 202708
+          },
+          "finishedAt": "2025-11-11T18:33:03.196487",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.196284",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 578850625
+          },
+          "finishedAt": "2025-11-11T18:33:03.775576",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --config='exclude=[\"\\\\.(spec|test)\\\\.ts$\"]' --source-maps --strip-leading-paths '--out-dir=dist' '-C module.type=es6'",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.196722",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 2274875
+          },
+          "finishedAt": "2025-11-11T18:33:03.778570",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:03.776296",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.135672",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779370",
+      "duration": {
+        "secs": 0,
+        "nanos": 591550041
+      },
+      "finishedAt": "2025-11-11T18:33:04.370925",
+      "flaky": false,
+      "label": "RunTask(lib2:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "lib2:typecheck",
+          "id": 11276268278515349770
+        }
+      },
+      "nodeIndex": 14,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 89694916
+          },
+          "finishedAt": "2025-11-11T18:33:03.869261",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "53b6123eac124bb6e2d73dfd4551091ecccdcd675f8800ed549ab086188b56d4"
+          },
+          "startedAt": "2025-11-11T18:33:03.779566",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 40458
+          },
+          "finishedAt": "2025-11-11T18:33:03.871986",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.871946",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 496880875
+          },
+          "finishedAt": "2025-11-11T18:33:04.369021",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.872138",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 779917
+          },
+          "finishedAt": "2025-11-11T18:33:04.370663",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.369883",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779371",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779360",
+      "duration": {
+        "secs": 0,
+        "nanos": 634951167
+      },
+      "finishedAt": "2025-11-11T18:33:04.414321",
+      "flaky": false,
+      "label": "RunTask(app2:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app2:build",
+          "id": 15752756342876673399
+        }
+      },
+      "nodeIndex": 17,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 156734542
+          },
+          "finishedAt": "2025-11-11T18:33:03.936294",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "d4a9542f06b652d78de9eacfd76da816c56ba6bf0b42a2e67bc0fabbe79b42d3"
+          },
+          "startedAt": "2025-11-11T18:33:03.779559",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 17125
+          },
+          "finishedAt": "2025-11-11T18:33:03.936323",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.936306",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 475515791
+          },
+          "finishedAt": "2025-11-11T18:33:04.411942",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --source-maps --out-dir build",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.936424",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 1415084
+          },
+          "finishedAt": "2025-11-11T18:33:04.414075",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.412659",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779366",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779208",
+      "duration": {
+        "secs": 0,
+        "nanos": 667049667
+      },
+      "finishedAt": "2025-11-11T18:33:04.446266",
+      "flaky": false,
+      "label": "RunTask(lib2:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "lib2:build",
+          "id": 6302094716594569820
+        }
+      },
+      "nodeIndex": 16,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 75245459
+          },
+          "finishedAt": "2025-11-11T18:33:03.854525",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "8648c9e036f234ff832851d0204eab60ea1f9b6bd51af3d26a77c29ba8522629"
+          },
+          "startedAt": "2025-11-11T18:33:03.779280",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 10542
+          },
+          "finishedAt": "2025-11-11T18:33:03.854542",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.854531",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 589127792
+          },
+          "finishedAt": "2025-11-11T18:33:04.443775",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --config='exclude=[\"\\\\.(spec|test)\\\\.ts$\"]' --source-maps --strip-leading-paths '--out-dir=dist' '-C module.type=es6'",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.854644",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 1565875
+          },
+          "finishedAt": "2025-11-11T18:33:04.446022",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.444456",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779212",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779351",
+      "duration": {
+        "secs": 0,
+        "nanos": 723981375
+      },
+      "finishedAt": "2025-11-11T18:33:04.503345",
+      "flaky": false,
+      "label": "RunTask(app1:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app1:build",
+          "id": 15398692995989282608
+        }
+      },
+      "nodeIndex": 24,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 101189041
+          },
+          "finishedAt": "2025-11-11T18:33:03.880695",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "fc34b235543c6f1234ad6167600b511963a05c723d3ed48301eb7be293c77f04"
+          },
+          "startedAt": "2025-11-11T18:33:03.779505",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 8083
+          },
+          "finishedAt": "2025-11-11T18:33:03.880708",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.880700",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 620706042
+          },
+          "finishedAt": "2025-11-11T18:33:04.501509",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --source-maps --out-dir build",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.880800",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 1102958
+          },
+          "finishedAt": "2025-11-11T18:33:04.503098",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.501994",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779359",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779297",
+      "duration": {
+        "secs": 0,
+        "nanos": 728247000
+      },
+      "finishedAt": "2025-11-11T18:33:04.507550",
+      "flaky": false,
+      "label": "RunTask(app4:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app4:build",
+          "id": 4388425940332812066
+        }
+      },
+      "nodeIndex": 23,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 89317250
+          },
+          "finishedAt": "2025-11-11T18:33:03.868674",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "2a9fe3606f0e644b070df2693cbdb78e7ea2f971a796f977456ae04683860a18"
+          },
+          "startedAt": "2025-11-11T18:33:03.779356",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 13167
+          },
+          "finishedAt": "2025-11-11T18:33:03.868693",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.868680",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 634732125
+          },
+          "finishedAt": "2025-11-11T18:33:04.503519",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --source-maps --out-dir build",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.868782",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 3317250
+          },
+          "finishedAt": "2025-11-11T18:33:04.507222",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.503905",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779299",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779105",
+      "duration": {
+        "secs": 0,
+        "nanos": 740458708
+      },
+      "finishedAt": "2025-11-11T18:33:04.519570",
+      "flaky": false,
+      "label": "RunTask(app3:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app3:build",
+          "id": 4488523605492342375
+        }
+      },
+      "nodeIndex": 25,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 149759833
+          },
+          "finishedAt": "2025-11-11T18:33:03.929036",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "4473679ae1810609d8989aacc9f5f745ac43ee579ef8dff9b18c3e1893e615d6"
+          },
+          "startedAt": "2025-11-11T18:33:03.779276",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 27834
+          },
+          "finishedAt": "2025-11-11T18:33:03.929087",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.929059",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 587332916
+          },
+          "finishedAt": "2025-11-11T18:33:04.516607",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --source-maps --out-dir build",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:03.929271",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 1886708
+          },
+          "finishedAt": "2025-11-11T18:33:04.519121",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.517234",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779107",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:04.446323",
+      "duration": {
+        "secs": 0,
+        "nanos": 463098375
+      },
+      "finishedAt": "2025-11-11T18:33:04.909425",
+      "flaky": false,
+      "label": "RunTask(app5:build)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app5:build",
+          "id": 16360186176627063054
+        }
+      },
+      "nodeIndex": 22,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 38868708
+          },
+          "finishedAt": "2025-11-11T18:33:04.485252",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "fdbbd5126aae02b225b56b2e88cf366c85f78bb660414b29d0af5358a91fdce3"
+          },
+          "startedAt": "2025-11-11T18:33:04.446384",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 23125
+          },
+          "finishedAt": "2025-11-11T18:33:04.485301",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:04.485278",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 420825083
+          },
+          "finishedAt": "2025-11-11T18:33:04.906309",
+          "meta": {
+            "type": "task-execution",
+            "command": "swc src --source-maps --out-dir build",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:04.485482",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 1747667
+          },
+          "finishedAt": "2025-11-11T18:33:04.908695",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:04.906947",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:04.446324",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:04.446352",
+      "duration": {
+        "secs": 0,
+        "nanos": 604488208
+      },
+      "finishedAt": "2025-11-11T18:33:05.050847",
+      "flaky": false,
+      "label": "RunTask(app5:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app5:typecheck",
+          "id": 15371023496884148677
+        }
+      },
+      "nodeIndex": 15,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 62782250
+          },
+          "finishedAt": "2025-11-11T18:33:04.509182",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "f6b272598cd902252696a1717373f4926f14ee24425c028f16738f69e7a4ea06"
+          },
+          "startedAt": "2025-11-11T18:33:04.446399",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 15458
+          },
+          "finishedAt": "2025-11-11T18:33:04.509204",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:04.509189",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 539760458
+          },
+          "finishedAt": "2025-11-11T18:33:05.049082",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 0
+          },
+          "startedAt": "2025-11-11T18:33:04.509319",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 870125
+          },
+          "finishedAt": "2025-11-11T18:33:05.050580",
+          "meta": {
+            "type": "archive-creation"
+          },
+          "startedAt": "2025-11-11T18:33:05.049710",
+          "status": "passed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:04.446355",
+      "status": "passed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779277",
+      "duration": {
+        "secs": 1,
+        "nanos": 331927917
+      },
+      "error": "Task \u001b[38;5;39mapp1:typecheck\u001b[0m failed to run.",
+      "finishedAt": "2025-11-11T18:33:05.111216",
+      "flaky": false,
+      "label": "RunTask(app1:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app1:typecheck",
+          "id": 9164529363738710200
+        }
+      },
+      "nodeIndex": 21,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 89558166
+          },
+          "finishedAt": "2025-11-11T18:33:03.868913",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "0b436ce958b70d63315869250765ac2cef7d18418f39688e96fdb5df94b0249b"
+          },
+          "startedAt": "2025-11-11T18:33:03.779354",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 13792
+          },
+          "finishedAt": "2025-11-11T18:33:03.868956",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.868942",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 1,
+            "nanos": 241073042
+          },
+          "finishedAt": "2025-11-11T18:33:05.110120",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 1
+          },
+          "startedAt": "2025-11-11T18:33:03.869040",
+          "status": "failed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779279",
+      "status": "failed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779388",
+      "duration": {
+        "secs": 1,
+        "nanos": 497316833
+      },
+      "error": "Task \u001b[38;5;39mapp3:typecheck\u001b[0m failed to run.",
+      "finishedAt": "2025-11-11T18:33:05.276716",
+      "flaky": false,
+      "label": "RunTask(app3:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app3:typecheck",
+          "id": 14163197348616478003
+        }
+      },
+      "nodeIndex": 6,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 120757917
+          },
+          "finishedAt": "2025-11-11T18:33:03.900382",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "fd6caeb8194310d195820f5dd115efa9bb274a45d5177d2ffaf0dbe6db206bf7"
+          },
+          "startedAt": "2025-11-11T18:33:03.779624",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 10792
+          },
+          "finishedAt": "2025-11-11T18:33:03.900402",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.900392",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 1,
+            "nanos": 374529000
+          },
+          "finishedAt": "2025-11-11T18:33:05.275048",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 1
+          },
+          "startedAt": "2025-11-11T18:33:03.900511",
+          "status": "failed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779391",
+      "status": "failed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779405",
+      "duration": {
+        "secs": 1,
+        "nanos": 515649459
+      },
+      "error": "Task \u001b[38;5;39mapp2:typecheck\u001b[0m failed to run.",
+      "finishedAt": "2025-11-11T18:33:05.295065",
+      "flaky": false,
+      "label": "RunTask(app2:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app2:typecheck",
+          "id": 10719043328950879280
+        }
+      },
+      "nodeIndex": 11,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 142117833
+          },
+          "finishedAt": "2025-11-11T18:33:03.921777",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "8fd7f361868e0914b68f7d781e63a2899edc171c89b2cbeab395390a5b93e9df"
+          },
+          "startedAt": "2025-11-11T18:33:03.779659",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 18458
+          },
+          "finishedAt": "2025-11-11T18:33:03.921816",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.921798",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 1,
+            "nanos": 371585583
+          },
+          "finishedAt": "2025-11-11T18:33:05.293571",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 1
+          },
+          "startedAt": "2025-11-11T18:33:03.921978",
+          "status": "failed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779406",
+      "status": "failed"
+    },
+    {
+      "allowFailure": false,
+      "createdAt": "2025-11-11T18:33:03.779351",
+      "duration": {
+        "secs": 1,
+        "nanos": 552569833
+      },
+      "error": "Task \u001b[38;5;39mapp4:typecheck\u001b[0m failed to run.",
+      "finishedAt": "2025-11-11T18:33:05.331937",
+      "flaky": false,
+      "label": "RunTask(app4:typecheck)",
+      "node": {
+        "action": "run-task",
+        "params": {
+          "args": [],
+          "env": {},
+          "interactive": false,
+          "persistent": false,
+          "priority": 2,
+          "runtime": {
+            "requirement": "~20",
+            "toolchain": "node",
+            "overridden": false
+          },
+          "target": "app4:typecheck",
+          "id": 428212461645950898
+        }
+      },
+      "nodeIndex": 19,
+      "operations": [
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 133599375
+          },
+          "finishedAt": "2025-11-11T18:33:03.913050",
+          "meta": {
+            "type": "hash-generation",
+            "hash": "783a6f3002a26384a75efd2e2a369824a591c62141061e1a0871e4780b7978de"
+          },
+          "startedAt": "2025-11-11T18:33:03.779451",
+          "status": "passed"
+        },
+        {
+          "duration": {
+            "secs": 0,
+            "nanos": 12583
+          },
+          "finishedAt": "2025-11-11T18:33:03.913092",
+          "meta": {
+            "type": "output-hydration"
+          },
+          "startedAt": "2025-11-11T18:33:03.913079",
+          "status": "skipped"
+        },
+        {
+          "duration": {
+            "secs": 1,
+            "nanos": 417373750
+          },
+          "finishedAt": "2025-11-11T18:33:05.330629",
+          "meta": {
+            "type": "task-execution",
+            "command": "tsc --build --pretty",
+            "exitCode": 1
+          },
+          "startedAt": "2025-11-11T18:33:03.913246",
+          "status": "failed"
+        }
+      ],
+      "startedAt": "2025-11-11T18:33:03.779358",
+      "status": "failed"
+    }
+  ],
+  "context": {
+    "affected": {
+      "projects": {
+        "app4": {
+          "upstream": [
+            "lib1"
+          ],
+          "other": false
+        },
+        "app2": {
+          "upstream": [
+            "lib1"
+          ],
+          "other": false
+        },
+        "lib2": {
+          "upstream": [
+            "lib1"
+          ],
+          "other": false
+        },
+        "moon-test": {
+          "files": [
+            "libs/test/lib1/src/index.ts"
+          ],
+          "other": false
+        },
+        "lib1": {
+          "files": [
+            "libs/test/lib1/src/index.ts"
+          ],
+          "tasks": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3": {
+          "upstream": [
+            "lib1"
+          ],
+          "other": false
+        },
+        "app1": {
+          "upstream": [
+            "lib1"
+          ],
+          "other": false
+        }
+      },
+      "shouldCheck": true,
+      "tasks": {
+        "app3:typecheck": {
+          "upstream": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:build": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "downstream": [
+            "app5:test-medium-ci",
+            "app5:test-small-ci",
+            "app5:build",
+            "app5:typecheck",
+            "lib2:test-large",
+            "app5:test-medium",
+            "lib2:test",
+            "lib2:test-small-ci",
+            "lib2:vitest",
+            "lib2:test-small",
+            "lib2:test-medium"
+          ],
+          "other": false
+        },
+        "app1:test-medium-ci": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:debug": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:typecheck": {
+          "files": [
+            "libs/test/lib1/src/index.ts"
+          ],
+          "downstream": [
+            "lib2:typecheck",
+            "app1:typecheck"
+          ],
+          "other": false
+        },
+        "lib1:test-medium": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:test-medium": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:test-small": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:vitest": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:vitest": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:vitest": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:vitest": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app4:vitest": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:test-medium": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "lib2:test-small-ci": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:test": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:typecheck": {
+          "upstream": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:typecheck": {
+          "upstream": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:test-medium": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:debug": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:test-small-ci": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:test-large": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:test-small": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:test-small": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:test-small": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:build": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "downstream": [
+            "app2:test-small-ci",
+            "app2:test-small",
+            "app2:test-large",
+            "app2:test-medium",
+            "app2:debug",
+            "app2:test",
+            "app2:test-medium-ci"
+          ],
+          "other": false
+        },
+        "lib2:typecheck": {
+          "upstream": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "downstream": [
+            "app5:typecheck"
+          ],
+          "other": false
+        },
+        "app5:debug": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app4:test-large": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:test-medium-ci": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:test-large": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:vitest": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:test-small": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:test-small-ci": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:debug": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:test-large": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "lib1:test-small": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:test-large": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:build": {
+          "upstream": [
+            "lib2:build"
+          ],
+          "downstream": [
+            "app5:test-small-ci",
+            "app5:test-medium",
+            "app5:test-medium-ci"
+          ],
+          "other": false
+        },
+        "app5:test": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app4:typecheck": {
+          "upstream": [
+            "lib1:typecheck",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:test": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:build": {
+          "files": [
+            "libs/test/lib1/src/index.ts"
+          ],
+          "downstream": [
+            "app2:test-medium",
+            "app3:test",
+            "app3:test-large",
+            "app1:test-medium-ci",
+            "app4:test",
+            "app3:test-medium",
+            "app4:build",
+            "app4:test-small",
+            "lib1:debug",
+            "lib2:test-large",
+            "app4:vitest",
+            "app1:build",
+            "app4:test-medium-ci",
+            "lib2:test-medium",
+            "app3:test-medium-ci",
+            "lib2:build-common",
+            "app1:typecheck",
+            "lib2:test",
+            "lib2:test-small-ci",
+            "app4:test-medium",
+            "app2:test-large",
+            "app4:test-small-ci",
+            "app3:build",
+            "lib1:test-medium-ci",
+            "app1:test-small-ci",
+            "app1:test-small",
+            "app3:test-small",
+            "lib2:test-small",
+            "app2:build",
+            "lib2:typecheck",
+            "lib2:vitest",
+            "lib2:build",
+            "app2:debug",
+            "app2:test",
+            "app2:test-medium-ci",
+            "app2:test-small-ci",
+            "app1:test",
+            "app3:debug",
+            "lib1:test",
+            "lib1:test-small-ci",
+            "app2:test-small",
+            "app3:test-small-ci"
+          ],
+          "other": false
+        },
+        "app3:test-medium": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app4:build": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "downstream": [
+            "app4:test-small",
+            "app4:test",
+            "app4:test-medium-ci",
+            "app4:test-small-ci",
+            "app4:vitest",
+            "app4:test-medium"
+          ],
+          "other": false
+        },
+        "lib1:test-large": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:debug": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:test-large": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:build": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "downstream": [
+            "app1:test-small",
+            "app1:test-small-ci",
+            "app1:test-medium-ci",
+            "app1:test"
+          ],
+          "other": false
+        },
+        "app4:test-medium-ci": {
+          "upstream": [
+            "app4:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:test-medium": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:test-medium-ci": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:build-common": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:test-small-ci": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app1:test-small-ci": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:build": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "downstream": [
+            "app3:debug",
+            "app3:test-small",
+            "app3:test-large",
+            "app3:test-medium",
+            "app3:test-medium-ci",
+            "app3:test-small-ci",
+            "app3:test"
+          ],
+          "other": false
+        },
+        "app5:typecheck": {
+          "upstream": [
+            "lib2:build"
+          ],
+          "other": false
+        },
+        "lib1:test-medium-ci": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib2:vitest": {
+          "upstream": [
+            "lib2:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:test-small": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app2:test": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:debug": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app1:test": {
+          "upstream": [
+            "app1:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:debug": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:test": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:test-small-ci": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app5:test-medium-ci": {
+          "upstream": [
+            "lib2:build",
+            "app5:build"
+          ],
+          "other": false
+        },
+        "app2:test-medium-ci": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app2:test-medium": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "lib1:test-small-ci": {
+          "upstream": [
+            "lib1:build"
+          ],
+          "other": false
+        },
+        "app3:test": {
+          "upstream": [
+            "app3:build",
+            "lib1:build"
+          ],
+          "other": false
+        }
+      }
+    },
+    "initialTargets": [
+      "lib2:vitest",
+      "app5:test-small",
+      "lib2:build",
+      "app2:debug",
+      "app2:test-medium-ci",
+      "app2:test-small-ci",
+      "lib1:lint-ci",
+      "app1:test",
+      "app5:clean",
+      "app2:test",
+      "lib1:test-small-ci",
+      "app3:debug",
+      "lib1:test",
+      "app3:typecheck",
+      "app1:format",
+      "app1:clean",
+      "app2:test-medium",
+      "lib2:clean",
+      "app5:test-medium-ci",
+      "lib1:format",
+      "app4:lint",
+      "app2:format",
+      "app1:test-medium-ci",
+      "lib2:format",
+      "app1:debug",
+      "app5:lint",
+      "lib2:lint-ci",
+      "lib1:typecheck",
+      "lib1:test-medium",
+      "app1:test-medium",
+      "app5:vitest",
+      "lib1:vitest",
+      "app3:vitest",
+      "app1:vitest",
+      "app1:lint",
+      "app4:test-small",
+      "app4:vitest",
+      "app3:lint-ci",
+      "app3:test",
+      "app5:test-medium",
+      "lib2:check-format",
+      "app3:lint",
+      "app2:typecheck",
+      "lib2:test",
+      "lib2:test-small-ci",
+      "app2:clean",
+      "app4:debug",
+      "app2:purge",
+      "app1:typecheck",
+      "app4:test-medium",
+      "app2:test-large",
+      "app5:format",
+      "app2:check-format",
+      "app4:test-small-ci",
+      "app1:test-small",
+      "lib2:typecheck",
+      "app2:build",
+      "app5:debug",
+      "app3:test-small",
+      "lib2:purge",
+      "app1:check-format",
+      "lib2:test-small",
+      "app4:test-large",
+      "lib1:lint",
+      "app4:lint-ci",
+      "lib2:test-medium-ci",
+      "app1:test-large",
+      "app2:vitest",
+      "app2:test-small",
+      "app4:typecheck",
+      "lib2:debug",
+      "app5:test-large",
+      "lib1:purge",
+      "lib1:test-small",
+      "app3:format",
+      "app5:test",
+      "app3:test-small-ci",
+      "app5:build",
+      "app5:check-format",
+      "app5:purge",
+      "lib1:clean",
+      "lib1:test-large",
+      "lib1:build",
+      "app4:test",
+      "app3:test-large",
+      "app3:test-medium",
+      "app4:build",
+      "app2:lint-ci",
+      "app3:check-format",
+      "app3:purge",
+      "lib1:debug",
+      "lib2:test-large",
+      "app4:clean",
+      "lib1:check-format",
+      "app1:build",
+      "app1:purge",
+      "app4:format",
+      "lib2:test-medium",
+      "app2:lint",
+      "app3:test-medium-ci",
+      "app4:test-medium-ci",
+      "app3:clean",
+      "app4:purge",
+      "app1:test-small-ci",
+      "app5:test-small-ci",
+      "app5:typecheck",
+      "lib1:test-medium-ci",
+      "app3:build",
+      "lib2:lint",
+      "app4:check-format",
+      "app1:lint-ci",
+      "app5:lint-ci"
+    ],
+    "passthroughArgs": [],
+    "primaryTargets": [
+      "app3:typecheck",
+      "app1:typecheck",
+      "app5:build",
+      "app4:build",
+      "app5:typecheck",
+      "lib2:build",
+      "app3:build",
+      "app1:build",
+      "lib2:typecheck",
+      "app2:build",
+      "lib1:build",
+      "app2:typecheck",
+      "app4:typecheck",
+      "lib1:typecheck"
+    ],
+    "profile": null,
+    "targetStates": {
+      "app3:test-large": {
+        "state": "passthrough"
+      },
+      "app4:test": {
+        "state": "passthrough"
+      },
+      "lib1:test-medium": {
+        "state": "passthrough"
+      },
+      "app1:test-medium": {
+        "state": "passthrough"
+      },
+      "app3:vitest": {
+        "state": "passthrough"
+      },
+      "lib2:test-large": {
+        "state": "passthrough"
+      },
+      "lib2:test": {
+        "state": "passthrough"
+      },
+      "lib2:test-small-ci": {
+        "state": "passthrough"
+      },
+      "lib1:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app3:test-small": {
+        "state": "passthrough"
+      },
+      "lib1:test": {
+        "state": "passthrough"
+      },
+      "app2:test": {
+        "state": "passthrough"
+      },
+      "app2:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app2:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "lib2:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app2:vitest": {
+        "state": "passthrough"
+      },
+      "app1:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app3:test": {
+        "state": "passthrough"
+      },
+      "lib1:test-large": {
+        "state": "passthrough"
+      },
+      "app1:debug": {
+        "state": "passthrough"
+      },
+      "app5:vitest": {
+        "state": "passthrough"
+      },
+      "app4:test-small": {
+        "state": "passthrough"
+      },
+      "app5:test-medium": {
+        "state": "passthrough"
+      },
+      "lib2:test-medium": {
+        "state": "passthrough"
+      },
+      "app3:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app4:test-large": {
+        "state": "passthrough"
+      },
+      "app5:test-small": {
+        "state": "passthrough"
+      },
+      "app2:test-small": {
+        "state": "passthrough"
+      },
+      "app1:test": {
+        "state": "passthrough"
+      },
+      "lib2:debug": {
+        "state": "passthrough"
+      },
+      "lib1:typecheck": {
+        "state": "passed",
+        "hash": "637605bd6a3a894a43fb38341ad79e6f13894237f313f4efe75f78d8d12a76bc"
+      },
+      "lib1:build": {
+        "state": "passed",
+        "hash": "a5eba1a40a5fa385046ac8c86a54bcadebe5e5fdf0d5053bd47330a60aec716b"
+      },
+      "app4:build": {
+        "state": "passed",
+        "hash": "2a9fe3606f0e644b070df2693cbdb78e7ea2f971a796f977456ae04683860a18"
+      },
+      "app5:test-large": {
+        "state": "passthrough"
+      },
+      "lib1:test-small": {
+        "state": "passthrough"
+      },
+      "app3:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app3:test-medium": {
+        "state": "passthrough"
+      },
+      "lib1:vitest": {
+        "state": "passthrough"
+      },
+      "lib1:debug": {
+        "state": "passthrough"
+      },
+      "app1:vitest": {
+        "state": "passthrough"
+      },
+      "app4:test-medium": {
+        "state": "passthrough"
+      },
+      "app4:debug": {
+        "state": "passthrough"
+      },
+      "app1:test-small": {
+        "state": "passthrough"
+      },
+      "lib2:test-small": {
+        "state": "passthrough"
+      },
+      "lib2:vitest": {
+        "state": "passthrough"
+      },
+      "app2:debug": {
+        "state": "passthrough"
+      },
+      "app2:test-medium": {
+        "state": "passthrough"
+      },
+      "lib2:typecheck": {
+        "state": "passed",
+        "hash": "53b6123eac124bb6e2d73dfd4551091ecccdcd675f8800ed549ab086188b56d4"
+      },
+      "app2:build": {
+        "state": "passed",
+        "hash": "d4a9542f06b652d78de9eacfd76da816c56ba6bf0b42a2e67bc0fabbe79b42d3"
+      },
+      "lib2:build": {
+        "state": "passed",
+        "hash": "8648c9e036f234ff832851d0204eab60ea1f9b6bd51af3d26a77c29ba8522629"
+      },
+      "app1:build": {
+        "state": "passed",
+        "hash": "fc34b235543c6f1234ad6167600b511963a05c723d3ed48301eb7be293c77f04"
+      },
+      "app3:typecheck": {
+        "state": "failed"
+      },
+      "app2:typecheck": {
+        "state": "failed"
+      },
+      "lib1:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app5:test": {
+        "state": "passthrough"
+      },
+      "app5:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app4:vitest": {
+        "state": "passthrough"
+      },
+      "app4:test-medium-ci": {
+        "state": "passthrough"
+      },
+      "app5:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app2:test-large": {
+        "state": "passthrough"
+      },
+      "app1:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app4:test-small-ci": {
+        "state": "passthrough"
+      },
+      "app3:debug": {
+        "state": "passthrough"
+      },
+      "app5:debug": {
+        "state": "passthrough"
+      },
+      "app1:test-large": {
+        "state": "passthrough"
+      },
+      "app3:build": {
+        "state": "passed",
+        "hash": "4473679ae1810609d8989aacc9f5f745ac43ee579ef8dff9b18c3e1893e615d6"
+      },
+      "app5:build": {
+        "state": "passed",
+        "hash": "fdbbd5126aae02b225b56b2e88cf366c85f78bb660414b29d0af5358a91fdce3"
+      },
+      "app5:typecheck": {
+        "state": "passed",
+        "hash": "f6b272598cd902252696a1717373f4926f14ee24425c028f16738f69e7a4ea06"
+      },
+      "app1:typecheck": {
+        "state": "failed"
+      },
+      "app4:typecheck": {
+        "state": "failed"
+      }
+    },
+    "touchedFiles": [
+      "libs/test/lib1/src/index.ts"
+    ]
+  },
+  "duration": {
+    "secs": 2,
+    "nanos": 248688500
+  },
+  "comparisonEstimate": {
+    "duration": {
+      "secs": 10,
+      "nanos": 424476874
+    },
+    "gain": {
+      "secs": 8,
+      "nanos": 175788374
+    },
+    "loss": null,
+    "percent": 78.428764,
+    "tasks": {
+      "typecheck": {
+        "count": 7,
+        "total": {
+          "secs": 7,
+          "nanos": 613005250
+        }
+      },
+      "build": {
+        "count": 7,
+        "total": {
+          "secs": 4,
+          "nanos": 601147542
+        }
+      },
+      "*": {
+        "count": 0,
+        "total": {
+          "secs": 0,
+          "nanos": 43476874
+        }
+      }
+    }
+  },
+  "status": "completed"
+}
